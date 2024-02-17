@@ -3,8 +3,27 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --scolor:#018AFF;
+  --bcolor: #000;
+  --wcolor: #FFF;
 }
 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: none;
+  font-family: "Poppins", sans-serif;
+}
+/* gloabal spacing */
+.padding-x {
+  @apply sm:px-16 px-6;
+}
+
+.hero {
+  @apply bg-[#000] h-[100%]   flex  flex-col items-center justify-center gap-5 relative z-0 max-w-[1440px] mx-auto;
+}
+
+.hero__title {
+  @apply 2xl:text-[80px] text-[#FFF]   text-[30px]  font-bold;
+}
