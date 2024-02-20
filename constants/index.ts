@@ -53,7 +53,11 @@ export interface DropdownLink {
   
   
   
-  
+  export interface CustomServiceCardProps{
+    title:String,
+    icon:String,
+    desc:String
+};
   
   
   
