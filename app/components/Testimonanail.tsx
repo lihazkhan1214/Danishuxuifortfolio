@@ -11,6 +11,7 @@ export function InfiniteMovingCardsDemo() {
         items={testimonials}
         direction="right"
         speed="slow"
+        
       />
     </div>
   );
