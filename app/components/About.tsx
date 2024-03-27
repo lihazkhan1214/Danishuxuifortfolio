@@ -35,13 +35,9 @@ function About() {
                 <p className="text-[#FFF] text-[24px] text-pretty overflow-hidden max-h-[72px]">
                     My name is Danish ali. I am a UI/UX designer with 4+ years of experience. I am responsible for creating and designing interfaces and experiences for digital products, such as websites | mobile applications | software, and other digital interfaces. Being A UI designer I am focus on designing the visual elements of the interface, such as the layout, color palette, typography, and graphics, while UX design we focus on the overall user experience, including user research, usability testing, and interaction design. User Experience Design | User Interface Design | UX UI Design | Product Designer | Interaction Designer | Automotive Interior Designer
                 </p>
-                {showMore && (
-                    <p className="text-[#FFF] text-[24px] text-pretty">
-                        More detailed text goes here...
-                    </p>
-                )}
-                <button onClick={toggleShowMore} className='bg-[#018AFF] text-[18px] font-[500] font-semibold rounded-[4px] w-[140px] text-[#FFF] h-[48px]'>
-                    {showMore ? "Show Less" : "More Detail"}
+              
+                <button  className='bg-[#018AFF] text-[18px] font-[500] font-semibold rounded-[4px] w-[140px] text-[#FFF] h-[48px]'>
+                    More Detail
                 </button>
             </div>
         </div>

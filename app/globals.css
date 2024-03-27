@@ -8,6 +8,14 @@
   --wcolor: #FFF;
 }
 
+.max-width{
+  @apply  max-w-7xl mx-auto;
+}
+
+.slick-prev:before, .slick-next:before {
+  display: none;
+}
+
 
 * {
   margin: 0;
@@ -21,9 +29,9 @@
 }
 
 .hero {
-  @apply bg-[#000] h-[100%]   flex  flex-col items-center justify-center gap-5 relative z-0 max-w-[1440px] mx-auto;
+  @apply bg-[#000] h-full md:h-[100vh]   flex  flex-col items-center justify-center gap-8 relative z-0 w-full mx-auto;
 }
 
 .hero__title {
-  @apply 2xl:text-[80px] text-[#FFF]   text-[30px]  font-bold;
+  @apply 2xl:text-[80px] text-[#FFF]  text-[30px]  sm:text-[40px]  font-bold;
 }
