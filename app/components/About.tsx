@@ -1,16 +1,17 @@
 "use client"
 import React, { useState } from 'react';
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 
 function About() {
     const [showMore, setShowMore] = useState(false);
-
+const router=useRouter();
     const toggleShowMore = () => {
         setShowMore(!showMore);
     };
 
     return (
-        <div className='bg-[#000] padding-x py-10 flex max-lg:flex-col justify-between gap-20'>
+        <div id="about" className='bg-[#000] relative padding-x py-10 flex max-lg:flex-col justify-between gap-20'>
             <div className='flex gap-10'>
                 <div className='relative w-[120px] h-full'>
                     <Image src="/images/heading.png" alt='not found' fill />
@@ -32,11 +33,11 @@ function About() {
             </div>
             <div className='flex flex-col gap-5'>
                 <h1 className='text-[#FFF] text-[44px] font-bold'>About Me</h1>
-                <p className="text-[#FFF] text-[24px] text-pretty overflow-hidden max-h-[72px]">
-                    My name is Danish ali. I am a UI/UX designer with 4+ years of experience. I am responsible for creating and designing interfaces and experiences for digital products, such as websites | mobile applications | software, and other digital interfaces. Being A UI designer I am focus on designing the visual elements of the interface, such as the layout, color palette, typography, and graphics, while UX design we focus on the overall user experience, including user research, usability testing, and interaction design. User Experience Design | User Interface Design | UX UI Design | Product Designer | Interaction Designer | Automotive Interior Designer
+                <p className="text-[#FFF] text-[24px] text-pretty  ">
+                My name is Danish ali. I am a UI/UX designer with 4+ years of experience. I am  responsible for creating and designing interfaces and experiences for digital products, such as websites | mobile applications | software, and other digital interfaces.
                 </p>
               
-                <button  className='bg-[#018AFF] text-[18px] font-[500] font-semibold rounded-[4px] w-[140px] text-[#FFF] h-[48px]'>
+                <button onClick={()=>router.push('/detail')}  className='bg-[#018AFF] text-[18px] font-[500] font-semibold rounded-[4px] w-[140px] text-[#FFF] h-[48px]'>
                     More Detail
                 </button>
             </div>

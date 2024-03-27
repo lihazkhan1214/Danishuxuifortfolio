@@ -20,31 +20,40 @@ export function InfiniteMovingCardsDemo() {
 const testimonials = [
   {
     quote:
-      "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
-    name: "Charles Dickens",
-    title: "A Tale of Two Cities",
+      "Outstanding UX/UI design! The interface is sleek and user-friendly, elevating our brand's identity and boosting user engagement.",
+    name: "Michael Rodriguez",
+    title: "Sr Developer",
+    img:"/images/developer1.png"
   },
   {
     quote:
-      "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
-    name: "William Shakespeare",
-    title: "Hamlet",
-  },
-  {
-    quote: "All that we see or seem is but a dream within a dream.",
-    name: "Edgar Allan Poe",
-    title: "A Dream Within a Dream",
-  },
-  {
-    quote:
-      "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
-    name: "Jane Austen",
-    title: "Pride and Prejudice",
+      "Brilliant UX/UI solutions! Enhancing conversions, retention, and user satisfaction. Praise for intuitive interface and modern aesthetic.",
+    name: "Jennifer Lee",
+    title:"Sr Designer",
+    img:"/images/ux3.png"
+    
+ 
   },
   {
     quote:
-      "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.",
-    name: "Herman Melville",
-    title: "Moby-Dick",
+      "Remarkable attention to detail! Our website's usability has greatly improved, leading to positive user feedback and increased conversions.",
+    name: "David Thompson",
+    title:"Mern Stack Developer",
+    img:"/images/mern.png"
   },
+  {
+    quote: "Exceptional design expertise! The intuitive layout enhances user satisfaction and brand recognition, driving growth.",
+    name: "Sarah Johnson",
+    title: "Sr Ux/Ux Designer",
+    img:"/images/ux1.png"
+
+  },
+  {
+    quote:
+      "Highly impressed with the intuitive navigation and polished aesthetics. A true professional in UX/UI, exceeding expectations.",
+    name: "Emily Chen",
+    title: "Frontend Developer",
+    img:"/images/ux2.png"
+  },
+  
 ];

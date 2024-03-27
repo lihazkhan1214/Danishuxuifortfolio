@@ -23,7 +23,7 @@ const Navbar = () => {
 
 
   return (
-    <nav className="bg-[#000] padding-x mx-auto flex justify-between items-center  h-[80px] py-2 relative">
+    <nav id='home' className=" scroll-smooth  padding-x mx-auto flex justify-between items-center  h-[80px] py-2 relative">
       {/* Logo */}
       <div className="flex items-center">
         <Link href="/" passHref>
@@ -38,7 +38,7 @@ const Navbar = () => {
             key={index} 
             href={item.url} 
             passHref
-            className={`text-[#FFF] text-[18px] hover:text-[#018AFF] font-[500] cursor-pointer `} 
+            className={`text-[#FFF]   text-[18px] hover:text-[#018AFF] font-[500] cursor-pointer `} 
             onClick={closeAllMenus}
           >
             {item.title}

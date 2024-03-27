@@ -8,13 +8,14 @@ export const InfiniteMovingCards = ({
   items,
   direction = "left",
   speed = "fast",
-  pauseOnHover = true,
+  pauseOnHover = false,
   className,
 }: {
   items: {
     quote: string;
     name: string;
     title: string;
+    img:string;
   }[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
@@ -116,7 +117,7 @@ export const InfiniteMovingCards = ({
 
 
 
-                  <Image src="/images/danish.png" className="rounded-[50%]" alt="not found" fill />
+                  <Image src={item.img} className="rounded-[50%]" alt="not found" fill />
 
 
 

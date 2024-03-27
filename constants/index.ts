@@ -4,24 +4,24 @@ export interface DropdownLink {
   }
   export const navlinks:DropdownLink[]=[{
     title:"Home",
-    url:"/",
+    url:"#home",
   
   }
   ,
   {
     title:"About",
-    url:"/about",
+    url:"#about",
     
   }
   ,
   {
     title:"Services",
-    url:"/services",
+    url:"#services",
     
   },
   {
     title:"Portfolio",
-    url:"/portfolio",
+    url:"#portfolio",
     
   },
 

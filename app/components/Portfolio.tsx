@@ -17,31 +17,37 @@ const postdata=[{
 
 },
 {
-    img:`/images/service1.png`,
-    title:"Website Design",
-    desc:"Website design encompasses the process of creating the visual layout, structure, and functionality of a website.",
+    img:`/images/dashboard1.png`,
+    title:"Dashboard",
+    desc:"Dashboard design: interface presenting key information, metrics, and data concisely for efficient visualization.",
     
   
   },{
-    img:`/images/service1.png`,
-    title:"Website Design",
-    desc:"Website design encompasses the process of creating the visual layout, structure, and functionality of a website.",
+    img:`/images/appimg.png`,
+    title:"App Design",
+    desc:"App design involves creating the visual and functional interface for mobile applications, web applications, or desktop software.",
     
   
   }
   ,{
-    img:`/images/service1.png`,
-    title:"Website Design",
-    desc:"Website design encompasses the process of creating the visual layout, structure, and functionality of a website.",
+    img:`/images/wiframe.png`,
+    title:"Wiframing Design",
+    desc:"Wireframing is vital for designing digital products like websites, apps, and interfaces, facilitating efficient development.",
     
   
   },{
-    img:`/images/service1.png`,
-    title:"Website Design",
-    desc:"Website design encompasses the process of creating the visual layout, structure, and functionality of a website.",
+    img:`/images/landingpage.png`,
+    title:"Landing Page Design",
+    desc:"A landing page is a web page designed with a specific goal: generating leads, promoting a product/service.",
     
   
+  },{
+    img:`/images/appimg2.png`,
+    title:"App Design",
+    desc:"App design involves creating the visual and functional interface for mobile applications, web applications, or desktop software.",
   }
+  
+  
 
 ]
 
@@ -89,8 +95,8 @@ function Portfolio() {
         dots: false,
         infinite: true,
         speed: 500,
-        slidesToShow: 4,
-        slidesToScroll: 4,
+        slidesToShow: 3,
+        slidesToScroll: 3,
         initialSlide: 0,
         swipeToSlide: true,
         autoplay: true,
@@ -101,8 +107,8 @@ function Portfolio() {
             {
                 breakpoint: 1280,
                 settings: {
-                    slidesToShow: 4,
-                    slidesToScroll: 4,
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
                     infinite: true,
                     dots: true,
                 },
@@ -145,7 +151,7 @@ function Portfolio() {
     return (
         <>
       
-                        <div className="max-sm:px-5   padding-x py-5  bg-[#000]">
+                        <div id="portfolio" className="max-sm:px-5   padding-x py-5  bg-[#000]">
                            
                                 
                                 <h1 className="text-[24px] mb-10 font-bold text-[#FFFFFF] flex items-center gap-2"><AlignLeft /> My Portfolio</h1>

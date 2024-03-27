@@ -8,28 +8,28 @@ import {
 import { Item } from '@radix-ui/react-accordion';
 
 const accordian = [{
-    q: "What services do you provide?",
-    a: "As an accountant, I provide a wide range of services including tax preparation,bookkeeping,financial.",
+    q: "Do you provide discovery and strategy services?",
+    a: " Yes, I do. If you have your product/project idea in a very raw form. I can consult you for a reasonable fee to streamline the whole project to create a better understanding of the project/product.",
     item: "one"
 },
 {
-    q: "Can you help me with financial planning?",
-    a: "As an accountant, I provide a wide range of services including tax preparation,bookkeeping,financial.",
+    q: "What would you deliver?",
+    a: "Design Images for Review 2. Fully Layered Source files. I can use the software of choice to create the screens. Softwares I use to design are Figma and Adobe XD.",
     item: "two"
 },
 {
-    q: "How often do I need to meet with you?",
-    a: "As an accountant, I provide a wide range of services including tax preparation,bookkeeping,financial.",
+    q: "Do I get small change or support after project done?",
+    a: "Yes we provide full support and small changes for free but if the work is more then it will cost you extra.",
     item: "three"
 },
 {
-    q: "How do I choose the UI UX Designing ?",
-    a: "As an accountant, I provide a wide range of services including tax preparation,bookkeeping,financial.",
+    q: "What do you need to get started?",
+    a: " Transparent or vector logo files, Your requirements. Brand guidelines, or Color preferences you like. Design inspirations like Wireframes, Sketches, or any other reference material you like.",
     item: "four"
 },
 {
-    q: "How much do you charge for your services?",
-    a: "As an accountant, I provide a wide range of services including tax preparation,bookkeeping,financial.",
+    q: "What other services do I provide?",
+    a: "Here are the other areas that I can help you with, let me know If you needed any of these services: - 📣 Brand Identity - ✏️ Logo Design - 🥑 Illustrations Design - 🖥 UI/UX Design - 👩🏻‍💻 Front-End Development -Backend Development.",
     item: "five"
 }
 

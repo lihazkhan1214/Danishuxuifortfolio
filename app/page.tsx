@@ -16,18 +16,14 @@ export default function Home() {
     <main >
       <div className=" mx-auto 2xl:max-w-7xl">
 
-      <div className="relative   h-full w-full ">
-       
+     <div className="relative h-full w-full">
+  <Image className="absolute z-10" src="/images/hero3.png" alt="not found" fill />
+  <div className="absolute top-0 w-full z-20">
+    <Navbar />
+  </div>
+  <Hero />
+</div>
 
-        <Image className="absolute z-20" src="/images/hero3.png" alt="not found" fill />
-        <div className="max-lg:hidden">
-          <Navbar />
-        </div>
-        <Hero />
-       
-     
-
-      </div>
 <About/>
 
 

@@ -56,7 +56,7 @@ function ServiceSection() {
   const visibleCards = showMore ? cards : cards.slice(0, 4);
 
   return (
-    <div className='padding-x text-[#FFF] py-10 bg-[#000]'>
+    <div id="services" className='padding-x text-[#FFF] py-10 bg-[#000]'>
       <h1 className="text-[24px] font-bold flex items-center gap-2"><AlignLeft /> My Services</h1>
 
       <div className="mt-10 grid grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4" style={{ transition: "height 0.5s ease-in-out" }}>
