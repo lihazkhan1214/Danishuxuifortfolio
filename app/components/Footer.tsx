@@ -50,19 +50,27 @@ function Footer() {
 
                     <div className=" mb-3 flex justify-between gap-5">
 
+                        <Link href="https://www.linkedin.com/in/danish-ali-b803b2248">
+
                         <Linkedin className='text-[#FFF]' />
 
+                        </Link>
 
+                        <Link href="https://www.facebook.com/danishveer123">
                         <Facebook className='text-[#FFF]' />
 
+                        </Link>
 
+                        <Link href="https://www.instagram.com/danish_uiux_specialist/?hl=en">
                         <Instagram className='text-[#FFF]' />
+                        </Link>
 
 
-
+                        <Link href="https://www.behance.net/danishaliofficial">
                         <div className="relative w-[29px] text-[#FFF] font-bold text-[20px] flex justify-center items-center h-[20px]">
                             Be
                         </div>
+                        </Link>
 
 
                     </div>
@@ -70,7 +78,7 @@ function Footer() {
 
                     <hr className='py-3 border-t-1  border-[#FFF] border-opacity-25' />
 
-                    <p className='text-[#FFF] text-opacity-25 text-sm text-center'>Copyright © 2024. Junaid hassan All rights reserved.</p>
+                    <p className='text-[#FFF] text-opacity-25 text-sm text-center'>Copyright © 2024. Danish Ali All rights reserved.</p>
 
 
                 </div>
