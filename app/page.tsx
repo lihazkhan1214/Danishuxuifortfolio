@@ -17,7 +17,7 @@ export default function Home() {
       <div className=" mx-auto 2xl:max-w-7xl">
 
      <div className="relative h-full w-full">
-  <Image className="absolute z-10" src="/images/hero3.png" alt="not found" fill />
+  <Image className="absolute  top-0 -z-20" src="/images/hero22.png" alt="not found" fill={true} />
   <div className="absolute top-0 w-full z-20">
     <Navbar />
   </div>

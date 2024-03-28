@@ -19,8 +19,16 @@ const Navbar = () => {
     setIsMobileMenuOpen(false);
   };
 
+  
+  const anotherFunction = () => {
+    router.push('#contact');
+    // Your anotherFunction logic
+};
   // Function to determine if the link is the current page
-
+  const handleCloseAndAnother = () => {
+    closeAllMenus();
+    anotherFunction();
+};
 
   return (
     <nav id='home' className=" scroll-smooth  padding-x mx-auto flex justify-between items-center  h-[80px] py-2 relative">
@@ -48,7 +56,7 @@ const Navbar = () => {
 
       {/* Login and Register Buttons */}
       <div className="hidden md:block">
-        <button className='bg-[#018AFF] text-[18px] font-[500] font-semibold rounded-[4px] w-[140px] text-[#FFF] h-[48px]' onClick={closeAllMenus}>
+        <button   className='bg-[#018AFF] text-[18px] font-[500] font-semibold rounded-[4px] w-[140px] text-[#FFF] h-[48px]' onClick={handleCloseAndAnother}>
           Contact Me
         </button>
       </div>

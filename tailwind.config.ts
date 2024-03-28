@@ -3,7 +3,85 @@ const colors = require("tailwindcss/colors");
 const { default: flattenColorPalette } = require("tailwindcss/lib/util/flattenColorPalette");
 const tailwindcssAnimate = require("tailwindcss-animate");
 
-const config = {
+interface TailwindConfig {
+  darkMode: "class";
+  content: string[];
+  prefix: string;
+  theme: {
+    container: {
+      center: boolean;
+      padding: string;
+      screens: {
+        "2xl": string;
+      };
+    };
+    extend: {
+      colors: {
+        border: string;
+        input: string;
+        ring: string;
+        background: string;
+        foreground: string;
+        primary: {
+          DEFAULT: string;
+          foreground: string;
+        };
+        secondary: {
+          DEFAULT: string;
+          foreground: string;
+        };
+        destructive: {
+          DEFAULT: string;
+          foreground: string;
+        };
+        muted: {
+          DEFAULT: string;
+          foreground: string;
+        };
+        accent: {
+          DEFAULT: string;
+          foreground: string;
+        };
+        popover: {
+          DEFAULT: string;
+          foreground: string;
+        };
+        card: {
+          DEFAULT: string;
+          foreground: string;
+        };
+      };
+      borderRadius: {
+        lg: string;
+        md: string;
+        sm: string;
+      };
+      keyframes: {
+        "accordion-down": {
+          from: { height: string };
+          to: { height: string };
+        };
+        "accordion-up": {
+          from: { height: string };
+          to: { height: string };
+        };
+        scroll: {
+          to: {
+            transform: string;
+          };
+        };
+      };
+      animation: {
+        "accordion-down": string;
+        "accordion-up": string;
+        scroll: string;
+      };
+    };
+  };
+  plugins: any[]; // Adjust this type according to the plugin type
+}
+
+const config: TailwindConfig = {
   darkMode: "class",
   content: [
     './pages/**/*.{ts,tsx}',
@@ -86,7 +164,7 @@ const config = {
   plugins: [tailwindcssAnimate, addVariablesForColors],
 };
 
-function addVariablesForColors({ addBase, theme }) {
+function addVariablesForColors({ addBase, theme }: { addBase: Function; theme: Function }) {
   let allColors = flattenColorPalette(theme("colors"));
   let newVars = Object.fromEntries(
     Object.entries(allColors).map(([key, val]) => [`--${key}`, val])

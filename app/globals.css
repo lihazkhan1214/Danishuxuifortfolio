@@ -29,7 +29,7 @@
 }
 
 .hero {
-  @apply bg-[#000] h-[600px] md:h-[750px]   flex  flex-col items-center justify-center gap-8 relative z-0 w-full mx-auto;
+  @apply  h-[600px] md:h-[750px]   flex  flex-col items-center justify-center gap-5 relative  w-full mx-auto;
 }
 
 .hero__title {

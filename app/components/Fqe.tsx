@@ -32,10 +32,7 @@ const accordian = [{
     a: "Here are the other areas that I can help you with, let me know If you needed any of these services: - 📣 Brand Identity - ✏️ Logo Design - 🥑 Illustrations Design - 🖥 UI/UX Design - 👩🏻‍💻 Front-End Development -Backend Development.",
     item: "five"
 }
-
 ];
-
-
 
 function Fqe() {
     return (
@@ -43,7 +40,7 @@ function Fqe() {
             <div className="bg-[#000000] padding-x py-10">
                 <div className="  bg-[#18191A] bg-opacity-25     padding-x py-10 ">
                     <h1 className="text-[#FFF] text-center text-[18px] md:text-[36px] font-bold">Frequently Asked
-                        Questions (FAQ's)</h1>
+                        Questions (FAQ&apos;s)</h1>
                     {
                         accordian.map((item, ind) => (
 
@@ -63,10 +60,8 @@ function Fqe() {
 
                 </div>
             </div>
-
-
         </>
     )
 }
 
-export default Fqe
+export default Fqe;
